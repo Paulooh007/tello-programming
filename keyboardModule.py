@@ -16,14 +16,9 @@ def getKey(keyName):
 
     return ans
 
-def main():
-    if getKey("LEFT"):
-        print("Left Key Pressed")
-    if getKey("RIGHT"):
-        print("Right Key Press")
+
 
 if __name__ == "__main__":
     init()
-    while True:
-        main()
+    
 
